@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+}
+
+.index-nav {
+  background: rgba(60, 100, 177, 0.06);
+  /* 색도조절
+    opacity: 0.06; 바탕과 요소 모두 투명화
+    */
+  position: absolute;
+  height: 88px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.nav-logo {
+  position: absolute;
+  width: 70px;
+  height: 32px;
+  left: 165px;
+  top: calc(50% - 4px / 2);
+}
+.nav-logo > span {
+  position: absolute;
+  height: 32px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 32px / 2);
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #3c64b1;
+}
+.nav-menu {
+  position: absolute;
+  width: 467px;
+  height: 18px;
+  left: 486px;
+  top: 35px;
+}
+.nav-menu-link {
+  position: absolute;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+}
+.first-link {
+  color: #3c64b1;
+  width: 40px;
+  height: 18px;
+  left: calc(50% - 70px / 2 - 214px);
+  top: calc(50% - 18px / 2);
+}
+.sencond-link {
+  color: #373f41;
+  width: 59px;
+  height: 18px;
+  left: calc(50% - 59px / 2 - 116.5px);
+  top: calc(50% - 18px / 2);
+}
+.three-link {
+  color: #373f41;
+  width: 53px;
+  height: 18px;
+  left: calc(50% - 0px / 2 - 12.5px);
+  top: calc(50% - 18px / 2);
+}
+.four-link {
+  color: #373f41;
+  width: 58px;
+  height: 18px;
+  left: calc(50% + 34px / 2 + 91px);
+  top: calc(50% - 18px / 2);
+}
+.five-link {
+  color: #373f41;
+  width: 65px;
+  height: 18px;
+  left: calc(50% + 78px / 2 + 200.5px);
+  top: calc(50% - 18px / 2);
+}
+
+.nav-btn {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  right: 320px;
+  top: calc(50% - 24px / 2);
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 18px;
+  background-color: #3c64b1;
+  color: #ffffff;
+}
+.main-head {
+  background: rgba(60, 100, 177, 0.06);
+  position: absolute;
+  height: 672px;
+  left: 0%;
+  right: 0%;
+  top: 88px;
+  bottom: 0%;
+}
+.head-left-content {
+  position: absolute;
+  width: 545px;
+  height: 388px;
+  left: 165px;
+  right: 830px;
+  top: 164px;
+  font-family: "Mulish";
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+.top-left-content {
+  position: absolute;
+  height: 112px;
+  top: calc(50%-112px / 2-116px);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 56px;
+  color: #373f41;
+}
+.mid-left-content {
+  position: absolute;
+  height: 88px;
+  top: calc(50% - 88px / 2 + 24px);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #737b7d;
+  opacity: 0.88;
+}
+.left-content-btn {
+  position: absolute;
+  width: 184px;
+  height: 64px;
+  left: 0px;
+  top: calc(50% - 48px / 2 + 148px);
+  background-color: #3c64b1;
+  align-items: center;
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+.head-right-content {
+  position: absolute;
+  width: 40%;
+  height: 588px;
+  right: 317px;
+  top: calc(50% - 588px / 2 + 22px);
+}
+.top-right-content {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  border: 1.34722px solid #3c64b1;
+}
+.content-head {
+  top: 0%;
+  bottom: 90.74%;
+  background-color: #ffffff;
+}
+.content-body {
+  top: 9.41%;
+  bottom: 0%;
+  background-color: #3c64b1;
+  background: rgba(60, 100, 177, 0.01);
+}
+.main-first-mid{
+  position: relative;
+  width: 50%;
+  height: 1100px;
+  margin: auto;
+  top: 870px;
+}
+.mid-head {
+  padding: 8px;
+  height: 80px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #373f41;
+}
+
+.mid-first-content{
+  position: absolute;
+  display: flex;
+  height: 381px;
+  top: 150px;
+}
+.first-content {
+  border: 1px solid black;
+  width: 33%;
+  height: 380px;
+}
+.first-content > p:nth-child(1) {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 40px;
+  font-family: "Mulish";
+  text-align: center;
+  padding: 10px;
+}
+.first-content > p:nth-child(2) {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  font-family: "Mulish";
+  text-align: center;
+  padding: 8px;
+}
+.mid-second-content{
+  position: absolute;
+  display: flex;
+  height: 381px;
+  top: 600px;
+}
+
+.finally-section{
+  position: relative;
+  bottom: 0px;
+  top: 988px;
+  width: 100%;
+  height: 100px;
+}
+.finally-section > div{
+  float: left;
+}
+.finally-left{
+  width: 20%;
+  height: 50%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Mulish";
+  padding: 25px;
+  margin-right: 530px;
+}
+.finally-right{
+  width: 60%;
+  height: 50%;
+  font-weight: 400;
+  
+}
+.finally-right>h2,.finally-right>p{
+  font-family: "Mulish";
+  margin: 0px; 
+  padding: 5px;
+}
